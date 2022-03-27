@@ -1,0 +1,31 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    h1 Please Log In, For Security
+    form(action='index' method='post')
+      table
+        thead
+        tbody
+          tr
+            td 
+              label(for='cred1') Credential 1:
+            td 
+              input#cred1(type='text' name='cred1' size='125')
+          tr
+            td 
+              label(for='cred2') Credential 2:
+            td 
+              input#cred2(type='text' name='cred2' size='125')
+          tr
+            td 
+              label(for='cred3') Credential 3:
+            td 
+              input#cred3(type='text' name='cred3' size='125')
+          tr
+            td 
+              input(type='submit' value='Login')
+              
+
